@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 06 May 2019 17:06:11 -0700
+Source: oomox
+Architecture: source
+Version: 1.12.2-1~themixproject~disco
+Distribution: disco
+Urgency: medium
+Maintainer: Peter J. Mello <admin@petermello.net>
+Changed-By: Peter J. Mello <admin@petermello.net>
+Changes:
+ oomox (1.12.2-1~themixproject~disco) disco; urgency=medium
+ .
+   * No-changes build from git master for Ubuntu 19.04 Disco.
+Checksums-Sha1:
+ 0e9398610f63f93715d064c59149378a5aaf156d 1550 oomox_1.12.2-1~themixproject~disco.dsc
+ 3e74c76e07ea1f28a5a03956cbc0d9dcf08ff599 50889036 oomox_1.12.2.orig.tar.xz
+ 52e28cd06739dc3c8227c5607a4bf2b68f48d0b4 4512 oomox_1.12.2-1~themixproject~disco.debian.tar.xz
+ 12f47b40ef94b1b37b05ac7dbcd993571cc3a716 6406 oomox_1.12.2-1~themixproject~disco_source.buildinfo
+Checksums-Sha256:
+ 31dc988dbcd22ecb34dc53431f3c4e1b3a55faae8f1370c486626c16242b49f1 1550 oomox_1.12.2-1~themixproject~disco.dsc
+ 6bcd50b5974ca0e42ecf92a0188fbf74d5043369351ec1994f7f0d6c9508b01a 50889036 oomox_1.12.2.orig.tar.xz
+ e2248534dfc20238fc90241244355038f5a54e8db99c91f8723801ffa8cc76de 4512 oomox_1.12.2-1~themixproject~disco.debian.tar.xz
+ ab25dd543fa0fbc66e5b6b45d21ee1a0b86e1c154edd0902e05eddf9cfcb9d46 6406 oomox_1.12.2-1~themixproject~disco_source.buildinfo
+Files:
+ 74154bcea358527e3497c3d03cfb928b 1550 devel optional oomox_1.12.2-1~themixproject~disco.dsc
+ 55eb8b91733a54bbb107a14c2ac2f376 50889036 devel optional oomox_1.12.2.orig.tar.xz
+ 34aaa3cece55ab073245da978c717447 4512 devel optional oomox_1.12.2-1~themixproject~disco.debian.tar.xz
+ 682ff76a25a4536692c12f99f1513bdb 6406 devel optional oomox_1.12.2-1~themixproject~disco_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCgAdFiEE3T9d7Ccfqh0vEYLRrHdYjT87yh4FAlzQ87QACgkQrHdYjT87
+yh4UvggAnuEYEETbUGlMD2FxdUYcHE1Ut8GRgTg0+aQBXcrHY+Y0sN0n1WqgQ7Os
+H3dA3JzLXoCbY4f9ZuAbu8Nq5Cioun4B5gaEdkG88Tu5XBNTeXmzsmnAG9FdTVkd
+Aba0ibjYDbL2NeKnuPvw9vN+POWsiT2P8VpeT7ED7MJNvqWYqy9Aw2PLHps3qMSo
+QWL07F7PGHifHwTROFMTyNZVxcsXkHdAzGUyu4QP7XA/xa96hEIGXkURukuUM42Z
+OLw3/XVBFCmOc7snGmacmulKFQ6T9WkQMWqM7FbJtaSKHpjB2a5+BgO6o99EA96N
+TCv3Q/07PHW+vC6H9pdQNgwmDDgo1w==
+=FO/9
+-----END PGP SIGNATURE-----

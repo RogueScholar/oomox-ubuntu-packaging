@@ -1,0 +1,46 @@
+ dpkg-buildpackage -us -uc -ui -S
+dpkg-buildpackage: info: source package oomox
+dpkg-buildpackage: info: source version 1.12.2-1~themixproject~disco
+dpkg-buildpackage: info: source distribution disco
+dpkg-buildpackage: info: source changed by Peter J. Mello <admin@petermello.net>
+ dpkg-source --before-build .
+ fakeroot debian/rules clean
+dh clean
+   dh_auto_clean
+   dh_clean
+ dpkg-source -b .
+dpkg-source: info: using source format '3.0 (quilt)'
+dpkg-source: info: building oomox using existing ./oomox_1.12.2.orig.tar.xz
+dpkg-source: info: building oomox in oomox_1.12.2-1~themixproject~disco.debian.tar.xz
+dpkg-source: info: building oomox in oomox_1.12.2-1~themixproject~disco.dsc
+ dpkg-genbuildinfo --build=source
+ dpkg-genchanges --build=source >../oomox_1.12.2-1~themixproject~disco_source.changes
+dpkg-genchanges: info: including full source code in upload
+ dpkg-source --after-build .
+dpkg-buildpackage: info: full upload (original source is included)
+Now running lintian oomox_1.12.2-1~themixproject~disco_source.changes ...
+N: Using profile ubuntu/main.
+N: Starting on group oomox/1.12.2-1~themixproject~disco
+N: Unpacking packages in group oomox/1.12.2-1~themixproject~disco
+N: ----
+N: Processing changes file oomox (version 1.12.2-1~themixproject~disco, arch source) ...
+N: ----
+N: Processing source package oomox (version 1.12.2-1~themixproject~disco, arch source) ...
+I: oomox source: testsuite-autopkgtest-missing
+X: oomox source: upstream-metadata-file-is-missing
+I: oomox source: debian-watch-file-is-missing
+N: ----
+N: Processing buildinfo package oomox (version 1.12.2-1~themixproject~disco, arch source) ...
+N: Finished processing group oomox/1.12.2-1~themixproject~disco
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile dsc oomox_1.12.2-1~themixproject~disco.dsc DD3F5DEC271FAA1D2F1182D1AC77588D3F3BCA1E
+
+ fixup_buildinfo oomox_1.12.2-1~themixproject~disco.dsc oomox_1.12.2-1~themixproject~disco_source.buildinfo
+ signfile buildinfo oomox_1.12.2-1~themixproject~disco_source.buildinfo DD3F5DEC271FAA1D2F1182D1AC77588D3F3BCA1E
+
+ fixup_changes dsc oomox_1.12.2-1~themixproject~disco.dsc oomox_1.12.2-1~themixproject~disco_source.changes
+ fixup_changes buildinfo oomox_1.12.2-1~themixproject~disco_source.buildinfo oomox_1.12.2-1~themixproject~disco_source.changes
+ signfile changes oomox_1.12.2-1~themixproject~disco_source.changes DD3F5DEC271FAA1D2F1182D1AC77588D3F3BCA1E
+
+Successfully signed dsc, buildinfo, changes files

@@ -1,0 +1,28 @@
+# Ignore Backup Copies from Text Editor
+*~
+*.swp
+
+# Ignore SASS files
+.sass-cache
+gtk.gresource
+dist
+
+# python stuff
+__pycache__
+.mypy_cache/
+
+# pkgbuild
+oomox/
+pkg/
+*.tar.xz
+oomox_*.deb
+
+# gettext stuff
+locale/
+po/oomox.pot
+po/*.mo
+
+# temporary/dev files
+dumpster/
+colors/randomized/
+colors/test/

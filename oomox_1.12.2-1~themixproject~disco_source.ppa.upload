@@ -1,0 +1,13 @@
+2019-05-06 20:00:03,990 - dput[11920]: uploader.invoke_dput - Uploading oomox using ftp to ppa (host: ppa.launchpad.net; directory: ~roguescholar/ppa)
+2019-05-06 20:00:03,991 - dput[11920]: hook.run_hook - running supported-distribution: check whether the target distribution is currently supported (using distro-info)
+2019-05-06 20:00:03,997 - dput[11920]: distro_info_checks.check_supported_distribution - {'allowed': ['release'], 'known': ['release', 'proposed', 'updates', 'backports', 'security']}
+2019-05-06 20:00:03,997 - dput[11920]: hook.run_hook - running required-fields: check whether a field is present and non-empty in the changes file
+2019-05-06 20:00:03,999 - dput[11920]: hook.run_hook - running checksum: verify checksums before uploading
+2019-05-06 20:00:04,218 - dput[11920]: hook.run_hook - running suite-mismatch: check the target distribution for common errors
+2019-05-06 20:00:04,221 - dput[11920]: hook.run_hook - running check-debs: makes sure the upload contains a binary package
+2019-05-06 20:00:04,222 - dput[11920]: hook.run_hook - running gpg: check GnuPG signatures before the upload
+2019-05-06 20:00:05,508 - dput[11920]: uploader.invoke_dput - Uploading oomox_1.12.2-1~themixproject~disco.dsc
+2019-05-06 20:00:06,489 - dput[11920]: uploader.invoke_dput - Uploading oomox_1.12.2.orig.tar.xz
+2019-05-06 20:01:34,765 - dput[11920]: uploader.invoke_dput - Uploading oomox_1.12.2-1~themixproject~disco.debian.tar.xz
+2019-05-06 20:01:36,561 - dput[11920]: uploader.invoke_dput - Uploading oomox_1.12.2-1~themixproject~disco_source.buildinfo
+2019-05-06 20:01:37,451 - dput[11920]: uploader.invoke_dput - Uploading oomox_1.12.2-1~themixproject~disco_source.changes
